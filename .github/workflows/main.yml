@@ -225,7 +225,7 @@ jobs:
           put release/mpv-i686*          32bit
           put release/mpv-x86_64-[!v3]*  64bit
           put release/mpv-x86_64-v3*     64bit-v3
-          put release/mpv-*-[xi6864]*.7z release
+          put release/mpv-[!dev]*-[xi6864]*.7z release
           END
 
       - name: Uploading packages to Github release
